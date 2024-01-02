@@ -5,6 +5,10 @@
 # Tetris AI
 > A trained AI model that plays the game of Tetris 🧩
 
+<p align="center">
+  <img src="_misc/tetris-ai-playing.gif" alt="Tetris AI Playing" title="Tetris AI Playing" width="567" height="366" class="center" />
+</p>
+
 ## What is Tetris?
 Tetris is a puzzle game where one of seven shapes (called Tetriminoes) fall from the top of a game board (10 wide and 20 tall). Players must move and rotate these pieces so that they create full rows, which then are deleted from the board. Clearing rows scores points while building to the top of the board would result in a game over.
 
@@ -78,6 +82,15 @@ After running each model for 10 iterations, the BCTS algorithm yielded a mean sc
 Currently, these Tetris AIs are running on a classic-based Tetris environment. This means that features like 7-bag have not been implemented, which would normally force a Tetrimino to appear at least once every 14 pieces. Thus, it is possible for runs to end early if there is a spree of bad pieces (like S or Z pieces back-to-back).
 
 In addition, these Tetris AIs are not good at downstacking. Even though they prioritize not building high, once they do, they struggle to clear back down. Thus, it's almost like how high an AI has built is like it's HP (health points, like stamina) - once it goes too high there's no way back.
+
+## Manually Running
+1. First, create a Conda environment using the `environment.yml` file.
+    - `conda create --name tetris-ai --file environment.yml`
+2. Open the repo in PyCharm
+    - I'm not sure if this step is necessary, but I was having difficulties loading the `gym_simplifiedtetris` package otherwise.
+3. Go to `learningAgents/heuristic/runHeuristicAgent.py` and run it
+   - In PyCharm, click the green arrow in the top-right
+4. There should be a pop-up of the game similar to the gif above
 
 ## Directory Breakdown
 
