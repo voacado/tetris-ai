@@ -1,0 +1,20 @@
+--------------------
+Iteration 0 fitnesses [ 0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   21.33  0.
+  0.    0.    0.    0.    0.    0.    0.83  0.    0.    0.    0.    0.
+  0.  ]
+Iteration 0 max fitness 21.333333333333332 
+Iteration 0 mean fitness 0.8866666666666666 
+Time took 0:00:34.768503
+Best child output weights:
+{'landingHeight': -0.101, 'erodedPieces': 0.698, 'rowTransitions': -0.938, 'colTransitions': -0.893, 'buriedHoles': -0.192, 'boardWells': -0.383}
+--------------------
+Iteration 1 fitnesses [9.3300e+00 6.7000e-01 0.0000e+00 0.0000e+00 0.0000e+00 1.0420e+01
+ 6.7830e+01 2.5000e-01 8.0000e-02 0.0000e+00 8.9000e-01 1.0830e+01
+ 9.0800e+00 4.9920e+01 1.1458e+02 2.3750e+01 3.3000e-01 2.2800e+01
+ 5.4330e+01 2.6700e+00 6.7000e-01 3.0800e+00 5.7000e-01 3.3300e+00
+ 2.7300e+00]
+Iteration 1 max fitness 114.58333333333333 
+Iteration 1 mean fitness 15.5264126984127 
+Time took 0:07:30.724293
+Best child output weights:
+{'landingHeight': -0.101, 'erodedPieces': 0.864, 'rowTransitions': -0.314, 'colTransitions': -0.893, 'buriedHoles': -0.192, 'boardWells': -0.383}

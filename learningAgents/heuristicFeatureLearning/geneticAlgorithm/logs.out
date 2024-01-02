@@ -1,0 +1,56 @@
+--------------------
+Iteration 0 fitnesses [ 0.    0.    0.    0.    0.    0.    0.    0.    0.    0.   21.33  0.
+  0.    0.    0.    0.    0.    0.    0.83  0.    0.    0.    0.    0.
+  0.  ]
+Iteration 0 max fitness 21.333333333333332 
+Iteration 0 mean fitness 0.8866666666666666 
+Time took 0:00:34.768503
+Best child output weights:
+{'landingHeight': -0.101, 'erodedPieces': 0.698, 'rowTransitions': -0.938, 'colTransitions': -0.893, 'buriedHoles': -0.192, 'boardWells': -0.383}
+--------------------
+Iteration 1 fitnesses [9.3300e+00 6.7000e-01 0.0000e+00 0.0000e+00 0.0000e+00 1.0420e+01
+ 6.7830e+01 2.5000e-01 8.0000e-02 0.0000e+00 8.9000e-01 1.0830e+01
+ 9.0800e+00 4.9920e+01 1.1458e+02 2.3750e+01 3.3000e-01 2.2800e+01
+ 5.4330e+01 2.6700e+00 6.7000e-01 3.0800e+00 5.7000e-01 3.3300e+00
+ 2.7300e+00]
+Iteration 1 max fitness 114.58333333333333 
+Iteration 1 mean fitness 15.5264126984127 
+Time took 0:07:30.724293
+Best child output weights:
+{'landingHeight': -0.101, 'erodedPieces': 0.864, 'rowTransitions': -0.314, 'colTransitions': -0.893, 'buriedHoles': -0.192, 'boardWells': -0.383}
+--------------------
+Iteration 2 fitnesses [ 77.93   2.28  61.    28.8   14.6  102.33  32.2   32.17  81.11  63.58
+  62.73 152.    95.33  12.17  12.    10.58   9.41  49.83   8.47  20.45
+  27.57  49.58  56.8  107.67  37.33]
+Iteration 2 max fitness 152.0 
+Iteration 2 mean fitness 48.31755747955747 
+Time took 0:15:55.936925
+Best child output weights:
+{'landingHeight': -0.101, 'erodedPieces': 0.698, 'rowTransitions': -0.314, 'colTransitions': -0.893, 'buriedHoles': -0.192, 'boardWells': -0.383}
+--------------------
+Iteration 3 fitnesses [ 91.67  98.67 234.76  73.19  25.53  63.47  50.15 126.78  86.2   81.33
+  85.08 118.5   71.83 172.24 308.    78.    74.4   83.23  59.17  25.28
+  74.55  86.48  42.21  69.81  70.14]
+Iteration 3 max fitness 308.0 
+Iteration 3 mean fitness 94.02642298442296 
+Time took 0:22:37.362497
+Best child output weights:
+{'landingHeight': -0.894, 'erodedPieces': 0.698, 'rowTransitions': -0.634, 'colTransitions': -1.107, 'buriedHoles': -0.087, 'boardWells': -0.042}
+--------------------
+Iteration 4 fitnesses [206.08 113.17 292.75  78.57  99.42 190.58  92.9   48.89  75.67 189.54
+ 286.38 207.92  80.61  70.12  62.78 189.3   56.5   52.82  78.64  81.29
+  72.48  65.23 182.6   97.88 273.89]
+Iteration 4 max fitness 292.75 
+Iteration 4 mean fitness 129.8397002997003 
+Time took 0:29:52.726275
+Best child output weights:
+{'landingHeight': -0.894, 'erodedPieces': 1.243, 'rowTransitions': -0.314, 'colTransitions': -0.893, 'buriedHoles': -0.715, 'boardWells': -0.383}
+--------------------
+Iteration 5 fitnesses [172.38  52.94 192.06  89.56 474.33 288.   120.3   72.62 145.75 194.56
+ 260.26 191.36 180.98  67.43  69.27 237.7   80.6  161.09 190.06 226.3
+  67.06  50.37  49.   130.   109.21]
+Iteration 5 max fitness 474.3333333333333 
+Iteration 5 mean fitness 154.92721118080405 
+Time took 0:45:05.514222
+Best child output weights:
+{'landingHeight': -0.894, 'erodedPieces': 0.108, 'rowTransitions': -0.634, 'colTransitions': -1.046, 'buriedHoles': -0.087, 'boardWells': -0.042}
